@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/legalYesOrNoBtn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".FeedbackActivity">
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@style/RatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:numStars="5"
+        android:theme="@style/RatingBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <TextView
+        android:id="@+id/legalIssues"
+        android:layout_width="245dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/ubuntu_mono_bold"
+        android:text="@string/legalIssues"
+        android:textAlignment="textStart"
+        android:textColor="@color/yellowPrime"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar"
+        app:layout_constraintVertical_bias="0.13999999" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/rounded_cornors"
+        android:checked="false"
+        android:fontFamily="@font/ubuntu_medium"
+        android:textColor="@color/yellowPrime"
+        android:textColorHighlight="@color/yellowPrime"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textColorLink="@color/colorPrimary"
+        android:textOff="@string/no"
+        android:textOn="@string/yes"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/legalIssues"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/legalIssues"
+        app:layout_constraintTop_toTopOf="@+id/legalIssues" />
+
+    <TextView
+        android:id="@+id/illegalIssues"
+        android:layout_width="245dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/ubuntu_mono_bold"
+        android:text="@string/illegalIssues"
+        android:textAlignment="textStart"
+        android:textColor="@color/yellowPrime"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/legalIssues"
+        app:layout_constraintVertical_bias="0.120000005" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/rounded_cornors"
+        android:checked="false"
+        android:fontFamily="@font/ubuntu_medium"
+        android:textColor="@color/yellowPrime"
+        android:textColorHighlight="@color/yellowPrime"
+        android:textColorHint="@color/yellowPrime"
+        android:textColorLink="@color/colorPrimary"
+        android:textOff="@string/no"
+        android:textOn="@string/yes"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/illegalIssues"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/illegalIssues"
+        app:layout_constraintTop_toTopOf="@+id/illegalIssues" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:fontFamily="@font/ubuntu_mono_bold"
+        android:text="@string/Rating"
+        android:textColor="@color/yellowPrime"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/ratingBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.837" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="282dp"
+        android:layout_height="54dp"
+        android:background="@drawable/rounded_cornors"
+        android:text="@string/submit"
+        android:textColor="@color/yellowPrime"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/illegalIssues"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/feedback" />
+</androidx.constraintlayout.widget.ConstraintLayout>

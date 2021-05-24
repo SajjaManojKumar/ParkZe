@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1065692205765",
+    "project_id": "parkze-1c50d",
+    "storage_bucket": "parkze-1c50d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065692205765:android:ade01ecffacce1a6b956ac",
+        "android_client_info": {
+          "package_name": "com.starwars.parkzzzdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065692205765-5g9to1qo7ae0pvp3d8q1ggi8vnrval6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZLrP1VCJDJsUKf27CRtvTuapL2eTrEVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065692205765-5g9to1qo7ae0pvp3d8q1ggi8vnrval6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

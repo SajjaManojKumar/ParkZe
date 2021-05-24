@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ParkZe</string>
+    <string name="parkIt">Park Now!</string>
+    <string name="parkMe">Park Me!</string>
+    <string name="parkMeText">You have parked your vechicle at</string>
+    <string name="longitude"> Longitude : </string>
+    <string name="latitude"> Latitude : </string>
+    <string name="defaultNumString">8888888888</string>
+    <string name="MainPageLogo">App Logo rounded_borders</string>
+    <string name="SplashscreenLogo">App Logo sharp_borders</string>
+    <string name="dummyString">qwertyuiopasdfghjklzxcvbnm</string>
+    <string name="pleaseClickMeToOpenInMap">Click here to see it on map.</string>
+    <string name="pleaseGiveFeedBack">Please Give feedback to remove the notification!</string>
+    <string name="feedback">User feedback</string>
+    <string name="Rating">Rating :</string>
+    <string name="legalIssues">Was there any problems faced due to any legal-activities [ like no parking sign ] ?</string>
+    <string name="illegalIssues">Was there any problems faced due to any illegal-activities [ like no theft or hit-and-run accidents ] ?</string>
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
+    <string name="submit">SUBMIT FEEDBACK</string>
+    <string name="about">ABOUT</string>
+    <string name="aboutHead">About : </string>
+    <string name="aboutBody">\t\t\tParkZe is a app that lets you know the safest place to park around your destination. Find a place to park at ease using parkZe.\n\t\tYou can save time, money and fuel by finding right spot of parking. ParkZe is for people who, love their cars and their time.\n\t\tBorn out of frustration of looking for parking, we have set out a list of every parking space around your required place which is ranked based on user experience. Use this app to find parking at your current location.\n\t\tThis app even gives you a notification regarding your parking area which will be then followed by a feedback form so that it can convey your experience to other users.</string>
+    <string name="help">HELP</string>
+    <string name="helpHead">Help : </string>
+    <string name="helpBody">\t\t\tParkZe uses your correct location to let you know if it is safe to park there or not. To make use of it, follow the below steps.\n\t\t\t\t1. Click on the "PARK NOW!" button. This will fetch your current location.\n\t\t\t\t2. It will show your current latitude and longitude. Click on the map button to locate it on the map. And click on the info button to know information about your current location.\n\t\t\t\t3. The list under gives details of close-by locations. \n\t\t\t\t4. Location is rated based on "legal" issues, eg. no parking zone, and "illegal " issues, eg. theft in that region.\n\t\t\t\t5. Once reaching your final location, click on the "Park Me1" button. This will record your location as the location where you parked your vehicle. A notification is also sent to your phone about this information.\n\t\t\t\t6. Once you are ready to go, you can give feedback about the region so it will be useful for other users as well.</string>
+
+    <string name="test">Add Values</string>
+</resources>
